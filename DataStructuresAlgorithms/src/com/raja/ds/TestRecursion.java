@@ -1,5 +1,10 @@
 package com.raja.ds;
 
+
+/*
+ * 
+ * Recursion will be used in Stack,Tree and many others like binary search .
+ * Algorithms like Greedy,Divide and Conquer and Dynamic programming */
 public class TestRecursion {
 
 	public static void foo(int n){
