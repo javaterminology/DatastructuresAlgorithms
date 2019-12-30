@@ -14,7 +14,7 @@ public class TimeComplexity4IterativeAlgorithm {
 
 	private static int findBiggestNumber(int[] oneDArray) {
 		
-		int biggestNumber = oneDArray[0];//O(1) -----------this is constant time operation - always takes same time
+		int biggestNumber = oneDArray[0]; //O(1) -----------this is constant time operation - always takes same time
 		
 		for(int i=1;i<oneDArray.length-1;i++){//O(n) - time taking n units of time to process n elements 
 			if(oneDArray[i]>biggestNumber){//O(1) - this is constant time operation - always takes same time
